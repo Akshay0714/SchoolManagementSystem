@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="231.0" style="-fx-background-color: #ccff99;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="41.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Downloads/This_is_the_graphical_mascot_of_Christ_University,_Bangalore.png" />
+               </image></ImageView>
+            <Label layoutX="20.0" layoutY="189.0" text="Student Login System">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="42.0" layoutY="264.0" text="Christ University">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="286.0" text="Lavasa">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="369.0">
+         <children>
+            <TextField fx:id="tf_password" layoutX="128.0" layoutY="225.0" promptText="Password">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="167.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="23.0" layoutY="164.0" text="Username">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="229.0" text="Password">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="128.0" layoutY="160.0" promptText="Username">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </TextField>
+            <Button fx:id="button_login" alignment="CENTER" layoutX="116.0" layoutY="286.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="137.0" style="-fx-background-color: #ccff99; -fx-border-image-width: 2;" text="Login">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="132.0" layoutY="330.0" text="Not an user?">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="9.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_sign_up" layoutX="188.0" layoutY="327.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Sign Up!" textFill="#0c2f57">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="9.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="102.0" fitWidth="113.0" layoutX="132.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Downloads/png-transparent-padlock-s-locked-files-website-pin-tumbler-lock-padlock.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
